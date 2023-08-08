@@ -1,0 +1,104 @@
+name: shop_smart
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  provider: ^6.0.5
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  carousel_slider: ^4.0.0
+  smooth_page_indicator: ^1.0.0+2
+  flutter_svg_provider: ^1.0.3
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsBold.ttf
+          weight: 700
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PoppinsExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+    - family: Abhaya Libre
+      fonts: 
+        - asset: assets/fonts/AbhayaLibreRegular.ttf
+          weight: 400
+        - asset: assets/fonts/AbhayaLibreBold.ttf
+          weight: 700
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/MontserratMedium.ttf
+          weight: 500
+        - asset: assets/fonts/MontserratBold.ttf
+          weight: 700
+        - asset: assets/fonts/MontserratRegular.ttf
+          weight: 400
+        - asset: assets/fonts/MontserratRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/MontserratRomanSemiBold.ttf
+          weight: 600
+    - family: Arial
+      fonts: 
+        - asset: assets/fonts/ArialMT.ttf
+          weight: 400
+    - family: Outfit
+      fonts: 
+        - asset: assets/fonts/OutfitSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/OutfitRegular.ttf
+          weight: 400
+        - asset: assets/fonts/OutfitExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/OutfitMedium.ttf
+          weight: 500
+        - asset: assets/fonts/OutfitBold.ttf
+          weight: 700
+    - family: Noto Sans Bengali UI
+      fonts: 
+        - asset: assets/fonts/NotoSansBengaliUISemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/NotoSansBengaliUIRegular.ttf
+          weight: 400
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/RobotoBold.ttf
+          weight: 700
+        - asset: assets/fonts/RobotoRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RobotoRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoRomanBold.ttf
+          weight: 700
+    - family: Source Sans Pro
+      fonts: 
+        - asset: assets/fonts/SourceSansProSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/SourceSansProRegular.ttf
+          weight: 400
